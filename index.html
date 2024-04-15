@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/1dc1877525.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+      a {
+        font-size: 14px;
+      }
+
+      hr {
+        border: none;
+        border-bottom: 3px solid white;
+        width: 100%;
+      }
+
+      .image-caption {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Heading -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7">
+            <img class="w-100" src="images/logo.png" alt="" />
+          </div>
+          <div class="col-lg-5">
+            <form class="d-flex">
+              <input
+                class="form-control me-1 p-2 m-2 text-white"
+                type="text-white"
+                placeholder="Tìm kiếm phim"
+              />
+              <button class="btn btn-secondary m-2" type="button">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid bg-dark">
+      <div class="container text-white">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="row">
+              <div class="col">
+                <p>TRANG CHỦ</p>
+              </div>
+              <div class="col">
+                <p>PHIM MỚI</p>
+              </div>
+              <div class="col">
+                <p>PHIM LẺ</p>
+              </div>
+              <div class="col">
+                <p>PHIM BỘ</p>
+              </div>
+              <div class="col">
+                <p>THỂ LOẠI</p>
+              </div>
+              <div class="col">
+                <p>QUỐC GIA</p>
+              </div>
+              <div class="col">
+                <p>PHIM CHIẾU RẠP</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide mt-0" data-bs-ride="carousel">
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="0"
+          class="active"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="2"
+        ></button>
+      </div>
+
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="images/harper-bazaar-phim-insider-nguoi-noi-gian-3-e1654571358101.jpg"
+            class="d-block w-100"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/Negotiation-phim-HQ-5-banner.jpg"
+            class="d-block w-100"
+          />
+        </div>
+        <div class="carousel-item">
+          <img src="images/poster-phim-kinh-di.jpg" class="d-block w-100" />
+        </div>
+      </div>
+
+      <!-- Left and right controls/icons -->
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#demo"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#demo"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+
+    <!-- Nội dung chính -->
+
+    <div style="background-color: #555358" class="container-fluid">
+      <div class="container">
+        <br />
+        <br />
+        <h4 style="color: #dacb46">Phim Đề Cử</h4>
+        <hr />
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-3">
+            <div class="card" style="width: 255px">
+              <div class="position-relative">
+                <img
+                  class="card-img-top w-100"
+                  src="images/p1.jpg"
+                  alt="Card image"
+                />
+                <div
+                  class="image-caption position-absolute bottom-0 start-0 end-0 bg-dark text-white p-2"
+                >
+                  <h5 style="color: #ff8040" class="text-center">
+                    Tích Hoa Chỉ
+                  </h5>
+                  <p class="text-center">Blossoms in Adversity</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="card" style="width: 255px">
+              <div class="position-relative">
+                <img
+                  class="card-img-top w-100"
+                  src="images/p2.jpg"
+                  alt="Card image"
+                />
+                <div
+                  class="image-caption position-absolute bottom-0 start-0 end-0 bg-dark text-white p-2"
+                >
+                  <h5 style="color: #ff8040" class="text-center">
+                    Nữ Hoàng Nước Mắt
+                  </h5>
+                  <p class="text-center">Queen of Tears</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="card" style="width: 255px">
+              <div class="position-relative">
+                <img
+                  class="card-img-top w-100"
+                  src="images/p5.jpg"
+                  alt="Card image"
+                />
+                <div
+                  class="image-caption position-absolute bottom-0 start-0 end-0 bg-dark text-white p-2"
+                >
+                  <h5 style="color: #ff8040" class="text-center">
+                    Cuộc Chiến Sinh Tồn
+                  </h5>
+                  <p class="text-center">Escape of the Seven</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="card" style="width: 255px">
+              <div class="position-relative">
+                <img
+                  class="card-img-top w-100"
+                  src="images/p4.jpg"
+                  alt="Card image"
+                />
+                <div
+                  class="image-caption position-absolute bottom-0 start-0 end-0 bg-dark text-white p-2"
+                >
+                  <h5 style="color: #ff8040" class="text-center">
+                    Dữ Phượng Hành
+                  </h5>
+                  <p class="text-center">The Legend of Shenli</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mt-3">
+        <div class="row">
+          <div class="col-lg-4 col-md-4">
+            <img class="w-100" src="images/Tuyen-Tap-Marvel.jpg" alt="" />
+            <img class="w-100" src="images/Tuyen-Tap-DC.jpg" alt="" />
+            <img class="w-100" src="images/side1.webp" alt="" />
+            <img class="w-100" src="images/phim-netflix.jpg" alt="" />
+          </div>
+          <div class="col-lg-5 col-md-4 text-white">
+            <h5 class="text-center text-danger">Top Phim Hot Doanh Thu</h5>
+            <img class="w-100" src="images/tang.jpg" alt="" />
+            <h5 class="text-center text-warning">TEE YOD: QUỶ ĂN TẠNG</h5>
+            <p class="text-center">Death Whisperer (2023)</p>
+            <br />
+            <img class="w-100" src="images/kunh.jpg" alt="" />
+            <h5 class="text-center text-warning">KUNG FU PANDA 4</h5>
+            <p class="text-center">Kung Fu Panda 4 (2024)</p>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <h5 class="text-center text-warning">Top Phim Sắp Chiếu</h5>
+            <div class="card bg-dark" style="width: 300px">
+              <div class="card-body text-secondary">
+                <img class="w-100" src="images/matjfif.jfif" alt="" />
+                <p class="text-center text-warning">
+                  AVENGERS: CUỘC CHIẾN BÍ MẬT
+                </p>
+                <p class="text-center">Avengers: Secret Wars (2026)</p>
+                <p class="text-center">
+                  <i class="far fa-star text-warning fs-3"></i
+                  ><i class="far fa-star text-warning fs-3"></i
+                  ><i class="far fa-star text-warning fs-3"></i
+                  ><i class="far fa-star text-warning fs-3"></i
+                  ><i class="far fa-star fs-3"></i>
+                </p>
+                <br />
+                <img class="w-100" src="images/botu.jpg" alt="" />
+                <p class="text-center text-warning">BỘ TỨ SIÊU ĐẲNG</p>
+                <p class="text-center">Fantastic Four (2025)</p>
+                <p class="text-center">
+                  <i class="far fa-star text-warning fs-3"></i
+                  ><i class="far fa-star text-warning fs-3"></i
+                  ><i class="far fa-star text-warning fs-3"></i
+                  ><i class="far fa-star text-warning fs-3"></i
+                  ><i class="far fa-star text-warning fs-3"></i>
+                </p>
+                <br />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <br />
+        <h4 style="color: #dacb46">Phim Chiếu Rạp</h4>
+        <div class="row">
+          <div class="col-lg-9">
+            <div class="row">
+              <div class="col">
+                <img class="w-100" src="images/kung1jpg.jpg" alt="" />
+                <h5 class="text-warning">Kung Fu Panda 4</h5>
+                <p class="text-white">Kung Fu Panda 4 (2024)</p>
+              </div>
+              <div class="col">
+                <img
+                  class="w-100"
+                  src="images/tee-yod-quy-an-tang-thumb (4).jpg"
+                  alt=""
+                />
+                <h5 class="text-warning">TEE YOD: QUỶ ĂN TẠNG</h5>
+                <p class="text-white">Death Whisperer (2023)</p>
+              </div>
+              <div class="col">
+                <img
+                  class="w-100"
+                  src="images/hanh-tinh-cat-phan-hai-thumb.jpg"
+                  alt=""
+                />
+                <h5 class="text-warning">HÀNH TINH CÁT: PHẦN HAI</h5>
+                <p class="text-white">Dune: Part Two (2024)</p>
+              </div>
+              <div class="col">
+                <img
+                  class="w-100"
+                  src="images/carrie-kola-sieu-pham-thumb.jpg"
+                  alt=""
+                />
+                <h5 class="text-warning">CARRIE & KOLA SIÊU PHÀM</h5>
+                <p class="text-white">Carrie and Superkola</p>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <img
+                    class="w-100"
+                    src="images/tay-dam-huyen-thoai-3-2023-thumb.jpg"
+                    alt=""
+                  />
+                  <h5 class="text-warning">TAY ĐẤM HUYỀN THOẠI 3</h5>
+                  <p class="text-white">Creed III (2023)</p>
+                </div>
+                <div class="col">
+                  <img class="w-100" src="images/khe-uoc-thumb.jpg" alt="" />
+                  <h5 class="text-warning">KHẾ ƯỚC</h5>
+                  <p class="text-white">Guy Ritchie's The Covenant</p>
+                </div>
+                <div class="col">
+                  <img
+                    class="w-100"
+                    src="images/ba-trum-mafia-thumb.jpg"
+                    alt=""
+                  />
+                  <h5 class="text-warning">BÀ TRÙM MAFIA</h5>
+                  <p class="text-white">Mafia Mamma (2023)</p>
+                </div>
+                <div class="col">
+                  <img class="w-100" src="images/da-dieu-thumb.jpg" alt="" />
+                  <h5 class="text-warning">DẠ ĐIỂU</h5>
+                  <p class="text-white">The Night Owl (2022)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <h5 class="text-center text-warning">Top Phim Lẻ</h5>
+            <div class="card bg-dark" style="width: 300px">
+              <div class="card-body text-secondary">
+                <img class="w-100" src="images/matjfif.jfif" alt="" />
+                <p class="text-center text-warning">
+                  AVENGERS: CUỘC CHIẾN BÍ MẬT
+                </p>
+                <p class="text-center">Avengers: Secret Wars (2026)</p>
+                <p class="text-center">
+                  <i class="far fa-star text-warning fs-3"></i
+                  ><i class="far fa-star text-warning fs-3"></i
+                  ><i class="far fa-star text-warning fs-3"></i
+                  ><i class="far fa-star text-warning fs-3"></i
+                  ><i class="far fa-star fs-3"></i>
+                </p>
+                <br />
+                <img class="w-100" src="images/botu.jpg" alt="" />
+                <p class="text-center text-warning">BỘ TỨ SIÊU ĐẲNG</p>
+                <p class="text-center">Fantastic Four (2025)</p>
+                <p class="text-center">
+                  <i class="far fa-star text-warning fs-3"></i
+                  ><i class="far fa-star text-warning fs-3"></i
+                  ><i class="far fa-star text-warning fs-3"></i
+                  ><i class="far fa-star text-warning fs-3"></i
+                  ><i class="far fa-star text-warning fs-3"></i>
+                </p>
+                <br />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <br />
+        <h4 style="color: #dacb46">Phim Bộ Mới Cập Nhật</h4>
+        <div class="row">
+          <div class="col-lg-9">
+            <div class="row">
+              <div class="col">
+                <img class="w-100" src="images/tich-hoa-chi-thumb.jpg" alt="" />
+                <h5 class="text-warning">TÍCH HOA CHỈ</h5>
+                <p class="text-white">Blossoms in Adversity (2024)</p>
+              </div>
+              <div class="col">
+                <img
+                  class="w-100"
+                  src="images/tho-tien-vuong-phi-thumb.jpg"
+                  alt=""
+                />
+                <h5 class="text-warning">THỎ TIÊN VƯƠNG PHI</h5>
+                <p class="text-white">The Princess is a Rabbit Fairy</p>
+              </div>
+              <div class="col">
+                <img
+                  class="w-100"
+                  src="images/cong-anh-ma-chay-thumb.jpg"
+                  alt=""
+                />
+                <h5 class="text-warning">CÕNG ANH MÀ CHẠY</h5>
+                <p class="text-white">Lovely Runner (2024)</p>
+              </div>
+              <div class="col">
+                <img
+                  class="w-100"
+                  src="images/kho-tim-nan-tam-thumb.jpg"
+                  alt=""
+                />
+                <h5 class="text-warning">KHÓ TÌM (NAN TẦM)</h5>
+                <p class="text-white">Hard to Find (2024)</p>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <img
+                    class="w-100"
+                    src="images/tiem-chup-anh-ma-quai-thumb.jpg"
+                    alt=""
+                  />
+                  <h5 class="text-warning">TIỆM CHỤP ẢNH MA QUÁI</h5>
+                  <p class="text-white">The Midnight Studio (2024)</p>
+                </div>
+                <div class="col">
+                  <img
+                    class="w-100"
+                    src="images/bo-bo-khuynh-tam-thumb.jpg"
+                    alt=""
+                  />
+                  <h5 class="text-warning">BỘ BỘ KHUYNH TÂM</h5>
+                  <p class="text-white">Step by Step Love (2024)</p>
+                </div>
+                <div class="col">
+                  <img class="w-100" src="images/hoa-mau-thumb.jpg" alt="" />
+                  <h5 class="text-warning">HOA MÁU</h5>
+                  <p class="text-white">Kan Cicekleri (2022)</p>
+                </div>
+                <div class="col">
+                  <img
+                    class="w-100"
+                    src="images/loai-thong-tri-thumb.jpg"
+                    alt=""
+                  />
+                  <h5 class="text-warning">LOÀI THỐNG TRỊ</h5>
+                  <p class="text-white">Blood Free (2024)</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <img
+                    class="w-100"
+                    src="images/thanh-trung-chi-thanh-thumb.jpg"
+                    alt=""
+                  />
+                  <h5 class="text-warning">THÀNH TRUNG CHI THÀNH</h5>
+                  <p class="text-white">City of the City (2024)</p>
+                </div>
+                <div class="col">
+                  <img
+                    class="w-100"
+                    src="images/quai-kiet-sieu-hang-thumb.jpg"
+                    alt=""
+                  />
+                  <h5 class="text-warning">QUÁI KIỆT SIÊU HẠNG</h5>
+                  <p class="text-white">Al Cappuccino (2020)</p>
+                </div>
+                <div class="col">
+                  <img class="w-100" src="images/fallout-thumb.jpg" alt="" />
+                  <h5 class="text-warning">FALLOUT</h5>
+                  <p class="text-white">Fallout (2024)</p>
+                </div>
+                <div class="col">
+                  <img
+                    class="w-100"
+                    src="images/bong-bong-tinh-yeu-thumb.jpg"
+                    alt=""
+                  />
+                  <h5 class="text-warning">BONG BÓNG TÌNH YÊU</h5>
+                  <p class="text-white">Bubble Gum (2015)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <h5 class="text-center text-warning">Top Phim Lẻ</h5>
+            <div class="card bg-dark" style="width: 300px">
+              <div class="card-body text-secondary">
+                <img
+                  class="w-100"
+                  src="images/kstteaserposterwpow-15979030264081828254326.webp"
+                  alt=""
+                />
+                <p class="text-center text-warning">KÝ SINH THÚ: VÙNG XÁM</p>
+                <p class="text-center">Parasyte: The Grey (2024)</p>
+                <p class="text-center">
+                  <i class="far fa-star text-warning fs-3"></i
+                  ><i class="far fa-star text-warning fs-3"></i
+                  ><i class="far fa-star text-warning fs-3"></i
+                  ><i class="far fa-star text-warning fs-3"></i
+                  ><i class="far fa-star text-warning fs-3"></i>
+                </p>
+                <br />
+                <img
+                  class="w-100"
+                  src="images/xac-song-nhung-ke-con-lai-thumb.jpg"
+                  alt=""
+                />
+                <p class="text-center text-warning">
+                  XÁC SỐNG: NHỮNG KẺ CÒN LẠI
+                </p>
+                <p class="text-center">
+                  The Walking Dead: The Ones Who Live (2024)
+                </p>
+                <p class="text-center">
+                  <i class="far fa-star text-warning fs-3"></i
+                  ><i class="far fa-star text-warning fs-3"></i
+                  ><i class="far fa-star text-warning fs-3"></i
+                  ><i class="far fa-star text-warning fs-3"></i
+                  ><i class="far fa-star text-warning fs-3"></i>
+                </p>
+                <br />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="container-fluid">
+        <hr />
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <img class="w-100" src="images/logo.png" alt="" />
+              <p class="text-warning">Phát Triển Bởi: Nguyen Duy Lam</p>
+              <p class="text-warning">Nguồn Ý Tưởng: PhimMoi</p>
+              <p>
+                Xem phim mới miễn phí nhanh chất lượng cao. Phimmoi online Việt
+                Sub, Thuyết minh, lồng tiếng chất lượng HD. Xem phim nhanh
+                online chất lượng cao
+              </p>
+            </div>
+            <div class="col-lg-4">
+              <h5 class="text-primary text-center">Phim Mới</h5>
+              <p class="text-white text-center">Phim Lẻ Mới</p>
+              <p class="text-white text-center">Phim Bộ Mới</p>
+              <p class="text-white text-center">Phim Chiếu Rạp</p>
+              <p class="text-white text-center">Phim Sắp Chiếu</p>
+              <p class="text-white text-center">Phim Thuyết Minh</p>
+              <p class="text-white text-center">Phim Doanh Thu</p>
+            </div>
+            <div class="col-lg-4">
+              <h4 class="text-success">Information</h4>
+              <p class="text-white">
+                <i class="far fa-user"></i> Developer: Nguyen Duy Lam
+              </p>
+              <p class="text-white">
+                <i class="fas fa-calendar-week"></i> Date: 27/10/2005
+              </p>
+              <p class="text-white">
+                <i class="far fa-envelope"></i> Email Liên Hệ:
+                nguyenduylam2710@gmail.com
+              </p>
+              <div class="row">
+                <div class="col fs-3 text-white">
+                  <i class="fab fa-facebook"></i>
+                </div>
+                <div class="col fs-3 text-white">
+                  <i class="fab fa-facebook-messenger"></i>
+                </div>
+                <div class="col fs-3 text-white">
+                  <i class="fab fa-twitter"></i>
+                </div>
+                <div class="col fs-3 text-white">
+                  <i class="fab fa-youtube"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

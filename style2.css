@@ -1,0 +1,48 @@
+header {
+  background: #4bb779;
+}
+header a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 10px;
+  font-size: 1vw;
+}
+
+.header-right {
+  display: flex;
+  justify-content: flex-end !important;
+}
+
+.line {
+  margin: 50px 0;
+  text-align: center;
+}
+
+.card-title,
+.card-text {
+  text-align: center;
+}
+
+.btn-primary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #4bb779;
+}
+
+.btn-primaryy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: yellow;
+}
+
+.container {
+  word-wrap: break-word;
+}
+
+@media screen and (max-width: 576px) {
+  .header-right {
+    justify-content: flex-start !important;
+  }
+}
